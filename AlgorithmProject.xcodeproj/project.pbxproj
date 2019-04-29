@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F094BE6221E52AAE008A9D44 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F094BE6121E52AAE008A9D44 /* AlgorithmViewController.swift */; };
 		F0AD9BA4217FAE9A00F41417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD9BA3217FAE9A00F41417 /* AppDelegate.swift */; };
 		F0AD9BA6217FAE9A00F41417 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AD9BA5217FAE9A00F41417 /* AlgorithmViewController.swift */; };
 		F0AD9BA9217FAE9A00F41417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0AD9BA7217FAE9A00F41417 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F094BE6121E52AAE008A9D44 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlgorithmViewController.swift; path = Controller/AlgorithmViewController.swift; sourceTree = SOURCE_ROOT; };
 		F0AD9BA0217FAE9A00F41417 /* AlgorithmProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0AD9BA3217FAE9A00F41417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0AD9BA5217FAE9A00F41417 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		F0AD9BB7217FAEC300F41417 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F094BE6121E52AAE008A9D44 /* AlgorithmViewController.swift */,
 				F0AD9BA5217FAE9A00F41417 /* AlgorithmViewController.swift */,
 			);
 			path = Controller;
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0AD9BA6217FAE9A00F41417 /* AlgorithmViewController.swift in Sources */,
+				F094BE6221E52AAE008A9D44 /* AlgorithmViewController.swift in Sources */,
 				F0AD9BA4217FAE9A00F41417 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
